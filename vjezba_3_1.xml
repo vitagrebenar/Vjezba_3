@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Narudzba>
-  <Ime>Vita</Ime>
-  <Prezime>Grebenar</Prezime>
-  <MjestoStanovanja>
-    <Adresa>Ilica 1</Adresa>
-    <Grad>Zagreb</Grad>
-    <Drzava>Hrvatska</Drzava>
-  </MjestoStanovanja>
-  <NaručeniArtikl>
-    <Naziv>Majica</Naziv>
-    <Kolicina>1</Kolicina>
-    <Cijena valuta="eur">15</Cijena>
-  </NaručeniArtikl>
-</Narudzba>
+<podaci
+  xmlns:nar="http://example.com/narudzba"
+  xmlns:rac="http://example.com/racun">
+  
+  <nar:narudzba>
+    <nar:broj>N-2026-015</nar:broj>
+    <nar:datum>2026-04-08</nar:datum>
+    <nar:iznos>189.99 EUR</nar:iznos>
+  </nar:narudzba>
+
+  <rac:racun>
+    <rac:broj>R-2026-015</rac:broj>
+    <rac:datum>2026-04-08</rac:datum>
+    <rac:iznos>189.99 EUR</rac:iznos>
+  </rac:racun>
+  
+</podaci>
