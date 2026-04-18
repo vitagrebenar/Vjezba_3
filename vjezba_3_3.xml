@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Osoba spol="Ž">
+  <Ime>Vita</Ime>
+  <Prezime>Grebenar</Prezime>
+  
+  <MjestoStanovanja>
+    <Adresa>Ilica 1</Adresa>
+    <Grad>Zagreb</Grad>
+    <Drzava>Hrvatska</Drzava>
+  </MjestoStanovanja>
+  
+  <Kontakt>
+    <Mobitel>012345678</Mobitel>
+    <KucniTelefon>123456789</KucniTelefon>
+    <Email>vita@gmail.com</Email>
+  </Kontakt>
+</Osoba>
