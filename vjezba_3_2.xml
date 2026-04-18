@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Osoba spol="Ž">
+<Narudzba>
   <Ime>Vita</Ime>
   <Prezime>Grebenar</Prezime>
+  
   <MjestoStanovanja>
     <Adresa>Ilica 1</Adresa>
     <Grad>Zagreb</Grad>
-    <Drzava>Hrvatska</Drzava>
+    <Drzava>Hrvatska</Drazava> 
   </MjestoStanovanja>
-  <Kontakt>
-    <Mobitel>012345678</Mobitel>
-    <KucniTelefon>123456789</KucniTelefon>
-    <Email>vita@gmail.com</Email>
-  </Kontakt>
-</Osoba>
+  
+  <NaručeniArtikl>
+    <Naziv>Majica</Naziv>
+    <Kolicina>1</Kolicina>
+    <Cijena>12.99 eur</Cijena>
+  </NaručeniArtikl>
+  
+</Narudzba>
